@@ -7,6 +7,7 @@ const Form = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     setColorArr([...colorArr, color]);
+    setColor("");
   };
 
   return (
